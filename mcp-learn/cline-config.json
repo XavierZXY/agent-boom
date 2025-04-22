@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "get_weather": {
+      "disabled": true,
+      "timeout": 60,
+      "command": "~/.local/bin/uv",
+      "args": [
+        "--directory",
+        "~/codes/agent-boom/mcp-learn/server",
+        "run",
+        "weather.py"
+      ],
+      "transportType": "stdio"
+    },
+    "secret_fruits": {
+      "disabled": false,
+      "timeout": 60,
+      "command": "~/.local/bin/uv",
+      "args": [
+        "--directory",
+        "~/codes/agent-boom/mcp-learn/server",
+        "run",
+        "secret_fruits.py"
+      ],
+      "transportType": "stdio",
+      "autoApprove": [
+        "get_fruits",
+        "get_fruit_by_date"
+      ]
+    },
+    "get_date": {
+      "disabled": false,
+      "timeout": 60,
+      "command": "~/.local/bin/uv",
+      "args": [
+        "--directory",
+        "~/codes/agent-boom/mcp-learn/server",
+        "run",
+        "get_date.py"
+      ],
+      "transportType": "stdio",
+      "autoApprove": [
+        "get_fruits",
+        "get_current_date"
+      ]
+    }
+  }
+}
