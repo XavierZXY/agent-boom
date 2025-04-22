@@ -11,7 +11,7 @@
 ```bash
 # 安装 uv（如果尚未安装）
 pip install -U uv
-
+git clone git@github.com:XavierZXY/agent-boom.git
 # 安装项目依赖
 uv sync
 ```
