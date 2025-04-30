@@ -1,6 +1,7 @@
 # MCP-Learn 使用指南
 
 本项目提供了 Model Context Protocol (MCP) 使用的示例和教程，帮助你了解如何配置和使用 MCP 服务。
+![alt text](./images/mcp.png)
 
 ## 1. 环境配置
 
