@@ -85,3 +85,9 @@ MCP (Model Context Protocol) 提供了一种标准化的方式来构建和使用
 4. 集成外部 API 调用到 MCP 工具中
 
 这些示例提供了构建更复杂应用的基础，你可以根据自己的需求扩展这些服务或创建新的`MCP`工具。
+
+# More info
+
+- [MCP广场](https://modelscope.cn/mcp)
+- [modelcontextprotocol](https://modelcontextprotocol.io/introduction)
+- [MCP幼儿园级教程，让你的AI自己干活！【小白教程】](https://www.bilibili.com/video/BV1HFd6YhErb/?spm_id_from=333.337.search-card.all.click&vd_source=4b89af53720f562b658eda17f36f478f)
